@@ -1,0 +1,5 @@
+// styles.scss - imports partials and generates main css file for pattern library.
+
+// Starting with glob imports of all patterns, can split this out if you want to
+// be more explicit about order.
+@import "../_patterns/**/*.scss";

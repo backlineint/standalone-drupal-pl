@@ -1,0 +1,14 @@
+# Ignoring composer dependencies, requiring a composer install
+vendor/
+
+# Ignoring node modules, requiring an npm install
+node_modules/
+
+# Ignoring static pattern library. Feel free to comment this out if you want to commit it.
+public/
+
+# PhpStorm IDE Files
+.idea
+
+# Finder noise
+.DS_Store

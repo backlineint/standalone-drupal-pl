@@ -1,0 +1,25 @@
+{
+  "name": "standalone-drupal-pl",
+  "version": "1.0.0",
+  "description": "Boilerplate for a standalone Pattern Lab instance that will be a dependency of a Drupal theme.",
+  "scripts": {
+    "start": "npm run patterns:server",
+    "watch": "concurrently --names \"sass\" --prefix name \"npm run sass:watch\" \"npm run scripts:watch\" \"npm run patterns:watch\"",
+    "patterns": "php core/console --generate",
+    "patterns:watch": "php core/console --watch --timeout=0",
+    "patterns:server": "php core/console --server --timeout=0",
+    "sass": "gulp sass",
+    "sass:watch": "gulp sass:watch",
+    "scripts": "gulp scripts",
+    "scripts:watch": "gulp scripts:watch"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8"
+  },
+  "private": true
+}

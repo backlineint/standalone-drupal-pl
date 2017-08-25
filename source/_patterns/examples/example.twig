@@ -1,0 +1,8 @@
+<div class="example">
+  <p>We're using the Twig PatternEngine for Pattern Lab rather than the default Mustache PatternEngine.</p>
+  <p>Even though this file ends in a .twig extension, it doesn't have to include anything Twig specific. It can contain plan old html markup.</p>
+  <p>But we can also use Twig where need be. For example, {{ 'this was title cased by twig'|title }}.</p>
+  <p>You'll also need to use Twig to feed data into patterns. For example, the images and caption below come from example.yml. (You can use json as an alternative to yaml if you prefer.)</p>
+  <img src="{{ image }}" />
+  <h4>{{ caption }}</h4>
+</div>
