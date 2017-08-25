@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Boilerplate for a standalone Pattern Lab instance that will be a dependency of a Drupal theme.",
   "scripts": {
-    "start": "npm run patterns:server",
+    "start": "concurrently \"npm run patterns\" \"php core/console --server --quiet --timeout=0\"",
     "watch": "concurrently --names \"sass\" --prefix name \"npm run sass:watch\" \"npm run scripts:watch\" \"npm run patterns:watch\"",
     "patterns": "php core/console --generate",
     "patterns:watch": "php core/console --watch --timeout=0",

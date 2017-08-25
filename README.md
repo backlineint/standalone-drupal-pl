@@ -4,15 +4,24 @@ My personal boilerplate for a standalone Pattern Lab instance that will be a dep
 
 ## Prerequistes
 
+- [`composer`](https://getcomposer.org/)
 - [`nodejs`](https://nodejs.org)
 
 ## First Time Install
 
+`composer install`
+
+If asked to  merge or replace with the contents of the pattern-lab/drupal-twig-components package, select r for replace.
+
+If asked to update the config option styleguideKitPath, select Y for yes.
+
 `npm install`
+
+To view your pattern library for the first time run:
 
 `npm start`
 
-Then open [http://localhost:8080](http://localhost:8080) in your browser.
+This will generate the front-end for Patern Lab and then you can open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ## Helpful Commands
 
@@ -34,8 +43,6 @@ To generate the front-end for Pattern Lab type:
 
 You can use PHP's built-in web server to review your Pattern Lab project in a browser. In a separate window type:
 
-    npm start
-    or
     npm run patterns:server
 
 Then open [http://localhost:8080](http://localhost:8080) in your browser.
@@ -56,6 +63,6 @@ Manually generate a new compiled javascript file (intended only for the pattern 
 
 ## Other Notes
 
-This project was built using the Drupal fork of Pattern Lab: https://github.com/drupal-pattern-lab/edition-php-drupal-standard
+This project was built using the [Drupal fork of the Drupal Edition of Pattern Lab](https://github.com/drupal-pattern-lab/edition-php-drupal-standard)
 
-It also uses the inheritance Pattern Lab plugin.
+It also uses the [Data Inheritance Pattern Lab plugin](https://github.com/pattern-lab/plugin-php-data-inheritance).
