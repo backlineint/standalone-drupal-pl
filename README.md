@@ -1,6 +1,6 @@
 # Standalone Drupal-Friendly Pattern Lab Boilerplate
 
-My personal boilerplate for a standalone Pattern Lab instance that will be a dependency of a Drupal theme.
+My personal boilerplate for a standalone Pattern Lab instance that will be used as an external dependency of a Drupal theme.
 
 ## Prerequistes
 
