@@ -29,7 +29,7 @@ These are some helpful commands you can use on the command line for working with
 
 ### Watch task
 
-This will watch for changes in the pattern library, compile css, js, and pattern lab.
+This will watch for changes in the pattern library, compile css, js, and pattern lab and also run PHP's built-in web server so you may view your pattern library.
 
     npm run watch
 
